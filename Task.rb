@@ -1,7 +1,6 @@
 # Task-1
 def candies (x,y,z,w)
-x,y,z,w: Integer
-  if number <=0
+  if x,y,z,w <=0
     puts  "Enter the number > 0"
 else
  n1=w/x
