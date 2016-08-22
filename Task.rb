@@ -1,19 +1,21 @@
 # Task-1
-def candies (x,y,z,w)
-    if x,y,z,w <=0
-       puts  "Enter the number > 0"
-    else
-       n1=w/x
-       n2=w/y
-       n3=w/z
-       summ=[]
-       summ=(1..n1)*x + (1..n1)*y +(1..n1)*z
-      summ.each do |a| 
-          if a = w
-          result =+1
-          else
-          print "result=0"
-end
-end
+def jenifer(x,y,n)
 
-candies(1,2,3,4)
+  if x<0 or y<0 or n<0
+      puts "Enter x,y,n>0"
+  else
+      rus=[x,y].sort
+      k=rus[1].to_f/rus[0]
+  xerocs_copy2=(n/(k+1)).to_i
+  xerocs_copy1=(n-xerocs_copy2)
+  xerox2=xerocs_copy2*rus[1]+rus[0]
+  xerox1=xerocs_copy1*rus[0]
+  puts xerox2 #time xerox 2
+  puts xerox1 #time xerox 1
+  time=[xerox1,xerox2].sort
+  result_time=time[1]
+  puts result_time #full time to copy
+  end
+end     
+
+jenifer(1,1,11)
