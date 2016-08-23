@@ -1,8 +1,8 @@
 # Task-1
 def jenifer(x,y,n)
 
-  if x<0 or y<0 or n<0
-      puts "Enter x,y,n>0"
+   if x<0 or y<0 or n<=0
+      puts "Enter x>=0,y>=,n>0"
   else
       rus=[x,y].sort
       k=rus[1].to_f/rus[0]
