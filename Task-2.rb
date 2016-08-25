@@ -1,4 +1,4 @@
-# Task-1
+
 def jenifer(x,y,n)
 
    if x<0 or y<0 or n<=0
